@@ -1,0 +1,39 @@
+html{
+    background:black url(back.jpg)center center no-repeat; 
+    background-size: cover;
+    color:white;
+}
+
+body {
+    display:grid;
+    place-items:center;
+    font-family:Inter, Helvetica, Arial, sans-serif;
+    font-size:16px;
+    line-height:1.5em;}
+    @media (min-width:500px) {body{display:grid;} }
+    
+    
+
+
+.Container {width:90%;
+    
+    background: rgb(79,109,245,0.8);
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size:clamp(1rem,2vw,2rem);
+    line-height: 1.5em;
+}
+@media (min-width:500px) {.Container {margin:2vh;} }
+
+header{}
+.Avatar{display:block; float:left;width:200px;height:auto;
+margin:0 1em 0 0; border-radius: 50%;}
+.TitlulPaginii{display:block; font-size: clamp(2rem,6vw,4rem);
+line-height: 1em;}
+main{}
+.listaLinkuri{display:block; margin:0; padding:0; border-top:1px solid white}
+   .ListaItem{display:block; margin:0; padding:0; border-bottom: 1px solid white;}
+     .ListaLink{display:block; margin:0; padding:0.5em; text-decoration: none;  color: white;}
+     .ListaLink:hover{background:white; color:black;}
+      .ListaTitlu{display:block; margin:0; padding:0; font-size:1em; line-height:0.5em;}
+        .ListaText{}
